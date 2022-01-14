@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    font-family: '{{fontName}}', monospace;
+    color: {{fontColor}};
+    font-weight: {{fontWeight}};
+    text-shadow:{textShadow};
+  	text-align: left;
+  	scroll-behavior: smooth;
+  	text-transform: uppercase;
+}
+.main-container{
+    display:{{alignMessages}};
+    height: 98%;
+    flex-direction: column;
+    justify-content: flex-end;
+  	text-align: left;
+}
+
+.user-box{
+  	flex-grow: 0;
+  	background-color: {{userbackgroundColor}};
+    font-size:{{fontSize}}px;
+    left: {{sliderNickname}}%;
+  	font-weight: 600;
+  	text-align: left;
+    padding: 0 12px 0 0;
+  	box-shadow: 0 0 1px 2px {{outlineColor}};
+  	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.user-box > span {
+    font-size: {{fontSize}}px;
+  	font-weight: 600;
+  	text-align: left;
+}
+
+.message-row {
+    display: flex;
+    flex-direction: row;
+	align-items: top;
+    width: 100%;
+  	height: auto;
+  	margin-right: 10px;
+  	margin-bottom: 10px;
+  	text-align: left;
+}
+
+.badge {
+    display: {{badgesVisibility}};
+    height: {{fontSize}}px;
+  	
+}
+
+.user-message {
+    flex-grow: 1;
+    font-size: {{fontSize}}px;
+  	background-color: {{messagebackgroundColor}};
+  	height: auto;	
+    color: rgba(128, 255, 128, 0.8);
+  text-shadow:
+      0 0 1px rgba(51, 255, 51, 0.4),
+      0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+.emote {
+    height: {{emoteSize}}px;
+    vertical-align: middle;
+    background-repeat:no-repeat;
+}
+
+.action {
+    font-style: italic;
+}
