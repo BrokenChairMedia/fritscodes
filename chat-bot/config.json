@@ -1,0 +1,5 @@
+{
+    "channelName": "your_channel_name",
+    "botUsername": "your_bot_username",
+    "oauthKey": "your_twitch_oauth_token"
+}

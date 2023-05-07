@@ -1,0 +1,22 @@
+{
+  "name": "twitch-bits-bot-by-chatgpt",
+  "version": "1.0.0",
+  "description": "Twitch bot that accepts bits and a command and presses a key binding when the goal has been met.",
+  "main": "index.js",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "ChatGPT",
+  "license": "ISC",
+  "dependencies": {
+    "robotjs": "^0.6.0",
+    "tmi.js": "^1.8.5"
+  }
+}

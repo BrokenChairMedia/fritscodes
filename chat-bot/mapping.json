@@ -1,0 +1,8 @@
+{
+    "boostKey": "f1",
+    "boostDuration": 2000,
+    "breakKey": "f2",
+    "breakDuration": 2000,
+    "pauseKey": "f3",
+    "pauseDuration": 2000
+}
